@@ -1,16 +1,24 @@
-# Lasso-Ridge-House-Price-Prediction
 
-A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. 
- 
+# Australian House Prediction
 
-The company is looking at prospective properties to buy to enter the market. This project tries to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+This project has used different features of the house that determine the price of the house. This project tries to build a regression model using regularisation in order to predict the actual value for house sale price prediction.
+Lasso and Ridge techniques weere compared to find the best model. The ridge model was chosen because there are many features that determine the price of the house.
+The RMSE was lower for ridge model as compare to the lasso model.
+Root Mean_squared_error for train set with ridge  model is  0.54
+Root Mean_squared_error for test set with ridge  model is  0.57
+R2 score for train set with ridge  model 0.70
+R2 score for test set  with ridge  model 0.68
 
- 
 
-The company wants to know the following things about the prospective properties:
 
-Which variables are significant in predicting the price of a house, and
+## Screenshots
 
-How well those variables describe the price of a house.
+![App Screenshot](https://github.com/SmartNamDevoloper/Lasso-Ridge-House-Price-Prediction/blob/eb465089a2e7a9e318d871a37f773d5be8bc41ef/Screenshot/Webpage.jpg)
 
- 
+  
+## Deployment
+
+The project has been deployed on aws server the project can be viewed at this link:
+http://ec2-3-21-28-165.us-east-2.compute.amazonaws.com/
+
+  
